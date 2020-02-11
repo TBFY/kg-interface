@@ -3,7 +3,7 @@ A query interface for the knowledge graph based on a light version of OptiqueVQS
 
 OptiqueVQS follows an approach projecting ontologies into graphs in order for end users to navigate a given ontology to formulate SPARQL queries. This approach has been described here:
 
-- Ahmet Soylu and Evgeny Kharlamov, "Making Complex Ontologies End User Accessible via Ontology Projections", in Proceedings of the 8th Joint International Conference (JIST 2018), LNCS, Vol. 11341, Springer, 2018, pp.295-303. doi: [https://doi.org/10.1007/978-3-030-04284-4_20](10.1007/978-3-030-04284-4_20)
+- Ahmet Soylu and Evgeny Kharlamov, "Making Complex Ontologies End User Accessible via Ontology Projections", in Proceedings of the 8th Joint International Conference (JIST 2018), LNCS, Vol. 11341, Springer, 2018, pp.295-303. doi: [10.1007/978-3-030-04284-4_20]https://doi.org/10.1007/978-3-030-04284-4_20)
 
 
 ## Quick Start
