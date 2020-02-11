@@ -1,0 +1,15 @@
+body {
+	margin: 0px !important;
+	background: url(../images/body-pattern.png) center 0px !important;
+	background-color: #333333 !important;
+}
+
+.page {
+	background: url(../images/body-pattern.png) center 0px;
+	background-color: #333333;
+}
+
+.ui-page-active {
+	background: url(../images/body-pattern.png) center 0px;
+	background-color: #333333;
+}

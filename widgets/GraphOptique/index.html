@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>GraphOptique</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link type="text/css" href="assets/infoVis/css/canvas.css" rel="stylesheet" />
+		<!--[if IE]><script language="javascript" src="assets/infoVis/js/excanvas.js"></script><![endif]-->
+		<!-- JIT Library File -->
+		<link rel="stylesheet" href="assets/jqueryMobile/css/themes/default/jquery.mobile-1.3.1.min.css" />
+		<link type="text/css" href="css/main.css" rel="stylesheet" />
+
+		<script language="javascript" type="text/javascript" src="assets/infoVis/js/jit.js"></script>
+		<script src="assets/jquery/jquery-1.10.2.min.js"></script>
+		<script src="assets/jqueryMobile/js/jquery.mobile-1.3.1.min.js"></script>
+		<script language="javascript" type="text/javascript" src="js/main.js"></script>
+		<script language="javascript" type="text/javascript" src="js/event.js"></script>
+		<script language="javascript" type="text/javascript" src="js/channel.js"></script>
+		<script language="javascript" type="text/javascript" src="js/data.js"></script>
+		<script language="javascript" type="text/javascript" src="js/stack.js"></script>
+		
+	</head>
+	<body>
+		<div data-role="page" id='visPage' class='page'>
+			<div data-role="header" data-position="fixed" data-tap-toggle="false">
+				<h1 id="query-header">Untitled query</h1>
+			</div>
+			<div id="infovis"></div>
+			<div id="sparqlquery">
+				<div data-role="fieldcontain">
+					<div id="queryarea" contentEditable="false"></div>
+				</div>
+			</div>
+
+			<p id="notices">
+                <a href="#" id="tny_mapp" data-role="button" data-theme="a" data-mini="true" data-inline="true" data-icon="check">A</a>
+                <br>
+                <a href="#" id="tny_temp" data-role="button" data-theme="b" data-mini="true" data-inline="true" data-icon="gear">Stream</a>
+            </p>
+
+			<div data-theme="c" id="queryToolbar" data-role="footer" data-position="fixed" data-tap-toggle="false" >
+				<fieldset class="ui-grid-b">
+					<div class="ui-block-a" data-role="controlgroup" data-type="horizontal">
+						<a href="#" id="deleteNode" data-role="button" data-icon="delete" data-iconpos="left">Delete Node</a>
+						<a href="#" id="undo" data-role="button" data-icon="back" data-iconpos="left">Undo</a>
+						<a href="#" id="redo" data-role="button" data-icon="forward" data-iconpos="left">Redo</a>
+					</div>
+					<div class="ui-block-b" data-role="controlgroup" data-type="horizontal" style="text-align:center">
+					</div>
+					<div class="ui-block-c" data-role="controlgroup" data-type="horizontal" style="text-align:right">
+						<a href="#" id="Qconfig" data-role="button" data-icon="gear" data-iconpos="left">Q-Config</a>
+						<a href="#" id="sparql" data-role="button" data-icon="edit" data-iconpos="left">SPARQL Query</a>
+						<a href="#" id="executeQuery" data-role="button" data-icon="arrow-r" data-iconpos="left">Result Overview</a>
+					</div>
+				</fieldset>
+			</div>
+			<div data-role="panel" data-theme="a" id="queryPanel" data-position="right" data-display="overlay">
+				<div data-role="header" id="queryHeader" data-id="queryHeader"></div>
+				<input type="search" name="filterQueries" id="filterQueries" value="" data-mini="true" placeholder="Filter...">
+				<div id="queryList" data-role="collapsible-set" data-theme="c" data-content-theme="c" ></div>
+			</div>
+	</body>
+</html>

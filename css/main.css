@@ -1,0 +1,17 @@
+body {
+	margin: 0px !important;
+	overflow: hidden;
+}
+
+.separator {
+	height:0.7%;
+	width: 100%
+}
+
+.page {
+	background: #298fc2 !important;
+}
+
+.ui-page-active {
+	background: #298fc2 !important;
+}

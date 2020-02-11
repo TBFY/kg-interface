@@ -1,0 +1,38 @@
+body {
+	margin: 0px !important;
+	background: url(../images/body-pattern.png) center 0px !important;
+	background-color: #333333 !important;
+}
+
+.page {
+	background: url(../images/body-pattern.png) center 0px;
+	background-color: #333333;
+}
+
+.ui-page-active {
+	background: url(../images/body-pattern.png) center 0px;
+	background-color: #333333;
+}
+
+.ui-icon-add {
+	background-image: url(../images/add.png);
+}
+.ui-icon-remove {
+	background-image: url(../images/remove.png);
+}
+.ui-icon-geoLocation {
+	background-image: url(../images/location-icon.png);
+	/*position: absolute;
+	z-index: 2;
+	right: 15px;
+	height: 32px;
+	width: 32px;*/
+}
+.ui-icon-temporal {
+	background-image: url(../images/stream-icon.png);
+	/*position: absolute;
+	z-index: 2;
+	right: 15px;
+	height: 32px;
+	width: 32px;*/
+}
