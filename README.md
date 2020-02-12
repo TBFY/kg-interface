@@ -3,9 +3,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Java](https://img.shields.io/badge/java-v1.8+-blue.svg)
-[![Build Status](https://travis-ci.org/TBFY/knowledge-graph.svg?branch=master)](https://travis-ci.org/TBFY/knowledge-graph)
-[![](https://jitpack.io/v/TBFY/knowledge-graph.svg)](https://jitpack.io/#TBFY/knowledge-graph)
-[![GitHub Issues](https://img.shields.io/github/issues/TBFY/knowledge-graph-API.svg)](https://github.com/TBFY/knowledge-graph/issues)
+[![Build Status](https://travis-ci.org/TBFY/kg-interface.svg?branch=master)](https://travis-ci.org/TBFY/kg-interface)
+[![](https://jitpack.io/v/TBFY/kg-interface.svg)](https://jitpack.io/#TBFY/kg-interface)
+[![GitHub Issues](https://img.shields.io/github/issues/TBFY/kg-interface.svg)](https://github.com/TBFY/kg-interface/issues)
 [![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![DOI](https://zenodo.org/badge/123939667.svg)](https://zenodo.org/badge/latestdoi/123939667)
 
