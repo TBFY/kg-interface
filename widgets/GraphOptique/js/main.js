@@ -1432,8 +1432,8 @@ function myTree() {
 				tree.objPush(SparqlObj.slct, '?' + node.id + '_l');
 				tree.objPush(SparqlObj.slcts, '?' + node.data.hId + '_label');
 				//push rel def for labels
-				tree.objPush(SparqlObj.reldf, 'OPTIONAL{?' + node.id + ' ' + tree.assignNsId(prfxArr, rdfs) + ':label' + ' ?' + node.id + '_l.}');
-				tree.objPush(SparqlObj.reldfs, 'OPTIONAL{?' + node.data.hId + ' ' + tree.assignNsId(prfxArr, rdfs) + ':label' + ' ?' + node.data.hId + '_label.}');
+				//tree.objPush(SparqlObj.reldf, 'OPTIONAL{?' + node.id + ' ' + tree.assignNsId(prfxArr, rdfs) + ':label' + ' ?' + node.id + '_l.}');
+				//tree.objPush(SparqlObj.reldfs, 'OPTIONAL{?' + node.data.hId + ' ' + tree.assignNsId(prfxArr, rdfs) + ':label' + ' ?' + node.data.hId + '_label.}');
 				//push relationships
 				node.eachSubnode(function(snode) {
 					//push prefix definition
@@ -1463,10 +1463,10 @@ function myTree() {
 						//push prefix definition
 						tree.objPush(SparqlObj.prfx, 'PREFIX ' + tree.assignNsId(prfxArr, result['ns']) + ': <' + result['ns'] + '>');
 						//push attribute definition -- TODO: revert optional
-						//tree.objPush(SparqlObj.slcdf, '?' + node.id + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['aId'] + '.');
-						//tree.objPush(SparqlObj.slcdfs, '?' + node.data.hId + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['hId'] + '.');
-						tree.objPush(SparqlObj.slcdf, 'OPTIONAL{?' + node.id + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['aId'] + '.}');
-						tree.objPush(SparqlObj.slcdfs, 'OPTIONAL{?' + node.data.hId + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['hId'] + '.}');
+						tree.objPush(SparqlObj.slcdf, '?' + node.id + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['aId'] + '.');
+						tree.objPush(SparqlObj.slcdfs, '?' + node.data.hId + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['hId'] + '.');
+						//tree.objPush(SparqlObj.slcdf, 'OPTIONAL{?' + node.id + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['aId'] + '.}');
+						//tree.objPush(SparqlObj.slcdfs, 'OPTIONAL{?' + node.data.hId + ' ' + tree.assignNsId(prfxArr, result['ns']) + ':' + result['name'] + ' ?' + result['hId'] + '.}');
 
 						// set stream properties
 						if ( typeof result['annt'] !== "undefined")
