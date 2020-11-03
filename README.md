@@ -6,7 +6,7 @@
 [![Build Status](https://travis-ci.org/TBFY/kg-interface.svg?branch=master)](https://travis-ci.org/TBFY/kg-interface)
 [![](https://jitpack.io/v/TBFY/kg-interface.svg)](https://jitpack.io/#TBFY/kg-interface)
 [![GitHub Issues](https://img.shields.io/github/issues/TBFY/kg-interface.svg)](https://github.com/TBFY/kg-interface/issues)
-[![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+<!-- [![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) -->
 [![DOI](https://zenodo.org/badge/239753312.svg)](https://zenodo.org/badge/latestdoi/239753312)
 
 # kg-interface
